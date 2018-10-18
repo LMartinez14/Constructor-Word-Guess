@@ -1,0 +1,23 @@
+{
+  "name": "constructor-word-guess",
+  "version": "1.0.0",
+  "description": "constructor-word-guess-LMartinez14",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LMartinez14/Constructor-Word-Guess.git"
+  },
+  "author": "LMartinez14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LMartinez14/Constructor-Word-Guess/issues"
+  },
+  "homepage": "https://github.com/LMartinez14/Constructor-Word-Guess#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "prompt": "^1.0.0"
+  }
+}
