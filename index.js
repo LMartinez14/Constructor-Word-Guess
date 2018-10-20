@@ -22,8 +22,8 @@ class WordGuessGame {
       let pullRandomWord = wordsArray[Math.floor(math.random() * wordArray.length)];
       console.log ("Let the games begin.");
       this.currentWord = new wordJS (pullRandomWord)
-      this.currentWord.spliceLetters()
-      this.currentWord.attemptsRemaining()
+      this.currentWord.parseWord()
+      this.currentWord.attemptsLeft()
       this.currentWord.displayLetters()
       this.userInput
    }
